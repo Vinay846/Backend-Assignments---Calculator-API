@@ -64,7 +64,7 @@ app.post("/sub", (req, res)=>{
             res.send({
                 status: "success",
                 message: "the difference of given two numbers",
-                sum: result
+                difference: result
                 });
         }
     }
@@ -91,7 +91,7 @@ app.post("/multiply", (req, res)=>{
             res.send({
                 status: "success",
                 message: "The product of given numbers",
-                sum: result
+                result: result
                 });
         }
     }
@@ -124,7 +124,7 @@ app.post("/divide", (req, res)=>{
             res.send({
                 status: "success",
                 message: "The division of given numbers",
-                sum: result
+                result: result
                 });
         }
     }
